@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Garansi</title>
+
+<!-- LINK CSS -->
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="header">
+        Garansi
+    </div>
+
+    <div class="content">
+        Halaman ini berisi informasi mengenai garansi produk yang Anda beli.
+        <br><br>
+        Data garansi telah diisi oleh tim NaxasShop sesuai dengan data pembelian yang terdaftar pada sistem kami.
+    </div>
+
+    <div class="content">
+
+    <div id="days">
+        30 Hari
+    </div>
+
+    <div id="countdown">
+        00 : 00 : 00
+    </div>
+
+</div>
+
+<div class="security-box">
+
+<button onclick="bukaPopup()">Password</button>
+
+<div id="biodata" class="biodata">
+<p id="nama"></p>
+<p id="passkey"></p>
+</div>
+
+</div>
+
+
+<!-- POPUP PASSWORD -->
+<div id="popup" class="popup">
+
+<div class="popup-box">
+
+<h3>Masukkan Password</h3>
+
+<input type="password" id="pwInput" placeholder="Password">
+
+<div class="popup-btn">
+
+<button onclick="cekPassword()">Login</button>
+<button onclick="tutupPopup()">Batal</button>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
